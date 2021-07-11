@@ -5,6 +5,11 @@ public class KadansAlgorith {
 		int max;
 		int start;
 		int end;
+		@Override
+		public String toString() {
+			return "pair [max=" + max + ", start=" + start + ", end=" + end + "]";
+		}
+		
 	}
 	
 	public static void main(String[] args) {
@@ -15,7 +20,8 @@ public class KadansAlgorith {
 		
 		pair ans=kadans(a);
 		
-		System.out.println(ans.max+" "+ans.start+" "+ans.end);
+		System.out.println(ans);
+//		System.out.println(ans.max+" "+ans.start+" "+ans.end);
 		
 		
 		
