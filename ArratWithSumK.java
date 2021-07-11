@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 class ArratWithSumK {
 
-	
+	//
 	//way 1
 	static boolean findsum(int a[], int n) {
 
